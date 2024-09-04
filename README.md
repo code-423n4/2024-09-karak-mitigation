@@ -1,10 +1,10 @@
-# [Sponsorname] Mitigation Review
-- Total Prize Pool: XXX XXX
-  - HM awards: XXX XXX
-  - Judge awards: XXX XXX
+# Karak Restaking Mitigation Review
+- Total Prize Pool: $7,750 in USDC
+  - HM awards: $6,000 in USDC
+  - Judge awards: $1,500 in USDC
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-C4-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
-- Starts TBD XXX XXX XX 20:00 UTC (ex. `Starts March 22, 2023 20:00 UTC`)
-- Ends TBD XXX XXX XX 20:00 UTC (ex. `Ends March 30, 2023 20:00 UTC`)
+- Starts Septmeber 09, 2024 20:00 UTC 
+- Ends September 13, 2024 20:00 UTC 
 
 ## Important note 
 
@@ -14,7 +14,15 @@ Each warden must submit a mitigation review for *every* individual PR listed in 
 
 Mitigations of all High and Medium issues will be considered in-scope and listed here.
 
-- [H-01: Title](link to Github issue)
+- [H-04: Slashing NativeVault will lead to locked ETH for the users](https://github.com/code-423n4/2024-07-karak-findings/issues/102)
+- [H-02: The operator can create a NativeVault that can be silently unslashable.](https://github.com/code-423n4/2024-07-karak-findings/issues/55)
+- [H-03: A DoS on snapshots due to a rounding error in calculations.](https://github.com/code-423n4/2024-07-karak-findings/issues/36)
+- [H-04: Violation of Invariant Allowing DSSs to Slash Unregistered Operators](https://github.com/code-423n4/2024-07-karak-findings/issues/4)
+- [M-01: Changing the slashingHandler for NativeVaults will DoS slashing](https://github.com/code-423n4/2024-07-karak-findings/issues/49)
+- [M-02: A snapshot may face a permanent DoS if both a slashing event occurs in the NativeVault and the staker's validator is penalized.](https://github.com/code-423n4/2024-07-karak-findings/issues/31)
+- [M-03: When malicious behavior occurs and DSS requests slashing against vault during 2 day period after SLASHING_WINDOW of 7 days is passed after staker initiates a withdrawal, token amount to be slashed is calculated to be higher than what it should be](https://github.com/code-423n4/2024-07-karak-findings/issues/17)
+- [M-04: Delayed Slashing Window and Lack of Transparency for Pending Slashes Could Lead to Loss of Funds](https://github.com/code-423n4/2024-07-karak-findings/issues/15)
+- [M-05: Slashing’s will Always Fail In Some Cases](https://github.com/code-423n4/2024-07-karak-findings/issues/7)
 
 [ ⭐️ SPONSORS ADD INFO HERE ]
 
