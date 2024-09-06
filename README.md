@@ -3,7 +3,7 @@
   - HM awards: $6,000 in USDC
   - Judge awards: $1,500 in USDC
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-C4-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
-- Starts Septmeber 09, 2024 20:00 UTC 
+- Starts September 09, 2024 20:00 UTC 
 - Ends September 13, 2024 20:00 UTC 
 
 ## Important note 
@@ -62,7 +62,8 @@ These are additional changes that will be in scope.
 
 | URL | Mitigation of | Purpose | 
 | ----------- | ------------- | ----------- |
-| https://github.com/your-repo/sample-contracts/pull/XXX | H-01 | This mitigation does XYZ | 
+| https://github.com/karak-network/karak-contracts-public/commit/9f4dafffa9bccd735c7ec6999f7fbe97514e2235#diff-62a4c2a33a1406e2fd41853e17947e8b72064dbec391332220e5ebb93216bea0R446 | Unclassified-1 | Critical fix |
+| https://github.com/karak-network/karak-contracts-public/commit/9f4dafffa9bccd735c7ec6999f7fbe97514e2235#diff-41a928b54782acaae681d5a031db58051d7db1e4139faa37efa7a23a19dd8286R177-R178 | Unclassified-1 | Critical fix |
 
 ## Out of Scope
 
