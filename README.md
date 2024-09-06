@@ -24,6 +24,15 @@ Mitigations of all High and Medium issues will be considered in-scope and listed
 - [M-04: Delayed Slashing Window and Lack of Transparency for Pending Slashes Could Lead to Loss of Funds](https://github.com/code-423n4/2024-07-karak-findings/issues/15)
 - [M-05: Slashing’s will Always Fail In Some Cases](https://github.com/code-423n4/2024-07-karak-findings/issues/7)
 
+New found issues post audit:
+- [Unclassified-1]: packages/contracts/src/NativeVault.sol L446 `+ node.withdrawableCreditedNodeETH -= slashedWithdrawable;`
+- [Unclassified-2]: packages/contracts/src/entities/NativeVaultLib.sol L177-L178
+```
+  validatorDetails.lastBalanceUpdateTimestamp =
+            node.currentSnapshotTimestamp == 0 ? node.lastSnapshotTimestamp : node.currentSnapshotTimestamp;
+```
+
+
 [ ⭐️ SPONSORS ADD INFO HERE ]
 
 ## Overview of changes
