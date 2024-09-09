@@ -51,8 +51,10 @@ Wherever possible, mitigations should be provided in separate pull requests, one
 
 | URL | Mitigation of | Purpose | 
 | ----------- | ------------- | ----------- |
-| https://github.com/your-repo/sample-contracts/pull/XXX | H-01 | This mitigation does XYZ | 
-
+| https://github.com/karak-network/karak-restaking/pull/365 | H-04 | This mitigation validates the operator, vaults status in the finalizing slashing |
+| https://github.com/karak-network/karak-restaking/pull/385 | M-03 | This mitigation computes the slashing amount in finalize slashing |
+| https://github.com/karak-network/karak-restaking/pull/383 | M-04 | This mitigation exposes a getter to determine if a vault's queued for slashing |
+| https://github.com/karak-network/karak-restaking/pull/365 | M-05 | This mitigation skips the slashing incase of `0` slashing amount |
 ### Additional scope to be reviewed
 [ ⭐️ CAS PLEASE REMOVE THIS SECTION IF THE SPONSOR IS ONLY MITIGATING HMS]
 
