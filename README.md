@@ -1,5 +1,5 @@
 # Karak Restaking Mitigation Review
-- Total Prize Pool: $7,750 in USDC
+- Total Prize Pool: $7,500 in USDC
   - HM awards: $6,000 in USDC
   - Judge awards: $1,500 in USDC
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-C4-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
