@@ -58,6 +58,7 @@ Wherever possible, mitigations should be provided in separate pull requests, one
 | https://github.com/karak-network/karak-restaking/pull/380/files#diff-62a4c2a33a1406e2fd41853e17947e8b72064dbec391332220e5ebb93216bea0R437 | H-01 | This mitigation only burns the ETH that has already been credited to the user consequently avoiding this scenario |
 | https://github.com/karak-network/karak-restaking/pull/380/files#diff-62a4c2a33a1406e2fd41853e17947e8b72064dbec391332220e5ebb93216bea0R429 | H-02 | This mitigation removes the SlashStore altogether and the NativeVault itself burns the slashed ETH |
 | https://github.com/karak-network/karak-restaking/pull/380/files#diff-62a4c2a33a1406e2fd41853e17947e8b72064dbec391332220e5ebb93216bea0R431 | H-03 | This mitigation introduces a check for the rounding error |
+| https://github.com/karak-network/karak-restaking/pull/434 | M-02| This mitigation accounts for the decrease in balance of the users shares before burning |
 
 ### Additional scope to be reviewed
 [ ⭐️ CAS PLEASE REMOVE THIS SECTION IF THE SPONSOR IS ONLY MITIGATING HMS]
