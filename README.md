@@ -62,8 +62,8 @@ These are additional changes that will be in scope.
 
 | URL | Mitigation of | Purpose | 
 | ----------- | ------------- | ----------- |
-| https://github.com/karak-network/karak-contracts-public/commit/9f4dafffa9bccd735c7ec6999f7fbe97514e2235#diff-62a4c2a33a1406e2fd41853e17947e8b72064dbec391332220e5ebb93216bea0R446 | Unclassified-1 | Critical fix |
-| https://github.com/karak-network/karak-contracts-public/commit/9f4dafffa9bccd735c7ec6999f7fbe97514e2235#diff-41a928b54782acaae681d5a031db58051d7db1e4139faa37efa7a23a19dd8286R177-R178 | Unclassified-1 | Critical fix |
+| https://github.com/karak-network/karak-contracts-public/commit/9f4dafffa9bccd735c7ec6999f7fbe97514e2235#diff-62a4c2a33a1406e2fd41853e17947e8b72064dbec391332220e5ebb93216bea0R446 | ADD-01 | Critical fix |
+| https://github.com/karak-network/karak-contracts-public/commit/9f4dafffa9bccd735c7ec6999f7fbe97514e2235#diff-41a928b54782acaae681d5a031db58051d7db1e4139faa37efa7a23a19dd8286R177-R178 | ADD-02 | Critical fix |
 
 ## Out of Scope
 - [M-01: Changing the slashingHandler for NativeVaults will DoS slashing](https://github.com/code-423n4/2024-07-karak-findings/issues/49)
