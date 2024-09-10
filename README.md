@@ -3,8 +3,8 @@
   - HM awards: $6,000 in USDC
   - Judge awards: $1,500 in USDC
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-C4-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
-- Starts September 09, 2024 20:00 UTC 
-- Ends September 13, 2024 20:00 UTC 
+- Starts September 10, 2024 20:00 UTC 
+- Ends September 16, 2024 20:00 UTC 
 
 ## Important note 
 
