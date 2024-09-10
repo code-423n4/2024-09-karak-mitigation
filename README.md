@@ -32,22 +32,18 @@ New found issues post audit:
             node.currentSnapshotTimestamp == 0 ? node.lastSnapshotTimestamp : node.currentSnapshotTimestamp;
 ```
 
-
-[ ⭐️ SPONSORS ADD INFO HERE ]
-
 ## Overview of changes
 
-Please provide context about the mitigations that were applied if applicable and identify any areas of specific concern.
+Karak Restaking is a protocol that allows users to restake their assets by directly depositing them into the vaults of operators. Operators can then register with Distributed Secure Services (DSS) to provide economic security. Operators perform tasks for the DSS in exchange for rewards, and the DSS has the ability to slash the funds that operators have delegated.
 
 ## Scope
 
 ### Branch
-[ ⭐️ SPONSORS ADD A LINK TO THE BRANCH IN YOUR REPO CONTAINING ALL PRS ]
+
+https://github.com/karak-network/karak-restaking/tree/v2
 
 ### Mitigation of High & Medium Severity Issues
-[ ⭐️ SPONSORS ADD ALL RELEVANT PRs TO THE TABLE BELOW:]
 
-Wherever possible, mitigations should be provided in separate pull requests, one per issue. If that is not possible (e.g. because several audit findings stem from the same core problem), then please link the PR to all relevant issues in your findings repo. 
 
 | URL | Mitigation of | Purpose | 
 | ----------- | ------------- | ----------- |
