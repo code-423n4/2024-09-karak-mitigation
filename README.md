@@ -18,7 +18,6 @@ Mitigations of all High and Medium issues will be considered in-scope and listed
 - [H-02: The operator can create a NativeVault that can be silently unslashable.](https://github.com/code-423n4/2024-07-karak-findings/issues/55)
 - [H-03: A DoS on snapshots due to a rounding error in calculations.](https://github.com/code-423n4/2024-07-karak-findings/issues/36)
 - [H-04: Violation of Invariant Allowing DSSs to Slash Unregistered Operators](https://github.com/code-423n4/2024-07-karak-findings/issues/4)
-- [M-01: Changing the slashingHandler for NativeVaults will DoS slashing](https://github.com/code-423n4/2024-07-karak-findings/issues/49)
 - [M-02: A snapshot may face a permanent DoS if both a slashing event occurs in the NativeVault and the staker's validator is penalized.](https://github.com/code-423n4/2024-07-karak-findings/issues/31)
 - [M-03: When malicious behavior occurs and DSS requests slashing against vault during 2 day period after SLASHING_WINDOW of 7 days is passed after staker initiates a withdrawal, token amount to be slashed is calculated to be higher than what it should be](https://github.com/code-423n4/2024-07-karak-findings/issues/17)
 - [M-04: Delayed Slashing Window and Lack of Transparency for Pending Slashes Could Lead to Loss of Funds](https://github.com/code-423n4/2024-07-karak-findings/issues/15)
@@ -67,5 +66,4 @@ These are additional changes that will be in scope.
 | https://github.com/karak-network/karak-contracts-public/commit/9f4dafffa9bccd735c7ec6999f7fbe97514e2235#diff-41a928b54782acaae681d5a031db58051d7db1e4139faa37efa7a23a19dd8286R177-R178 | Unclassified-1 | Critical fix |
 
 ## Out of Scope
-
-Please list any High and Medium issues that were judged as valid but you have chosen not to fix.
+- [M-01: Changing the slashingHandler for NativeVaults will DoS slashing](https://github.com/code-423n4/2024-07-karak-findings/issues/49)
