@@ -14,7 +14,7 @@ Each warden must submit a mitigation review for *every* individual PR listed in 
 
 Mitigations of all High and Medium issues will be considered in-scope and listed here.
 
-- [H-04: Slashing NativeVault will lead to locked ETH for the users](https://github.com/code-423n4/2024-07-karak-findings/issues/102)
+- [H-01: Slashing NativeVault will lead to locked ETH for the users](https://github.com/code-423n4/2024-07-karak-findings/issues/102)
 - [H-02: The operator can create a NativeVault that can be silently unslashable.](https://github.com/code-423n4/2024-07-karak-findings/issues/55)
 - [H-03: A DoS on snapshots due to a rounding error in calculations.](https://github.com/code-423n4/2024-07-karak-findings/issues/36)
 - [H-04: Violation of Invariant Allowing DSSs to Slash Unregistered Operators](https://github.com/code-423n4/2024-07-karak-findings/issues/4)
