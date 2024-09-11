@@ -46,14 +46,14 @@ https://github.com/karak-network/karak-restaking/tree/v2
 
 | URL | Mitigation of | Purpose | 
 | ----------- | ------------- | ----------- |
-| https://github.com/karak-network/karak-restaking/pull/380/files#diff-62a4c2a33a1406e2fd41853e17947e8b72064dbec391332220e5ebb93216bea0R437 | H-01 | This mitigation only burns the ETH that has already been credited to the user consequently avoiding this scenario |
-| https://github.com/karak-network/karak-restaking/pull/380/files#diff-62a4c2a33a1406e2fd41853e17947e8b72064dbec391332220e5ebb93216bea0R429 | H-02 | This mitigation removes the SlashStore altogether and the NativeVault itself burns the slashed ETH |
-| https://github.com/karak-network/karak-restaking/pull/380/files#diff-62a4c2a33a1406e2fd41853e17947e8b72064dbec391332220e5ebb93216bea0R431 | H-03 | This mitigation introduces a check for the rounding error |
-| https://github.com/karak-network/karak-restaking/pull/365 | H-04 | This mitigation validates the operator, vaults status in the finalizing slashing |
-| https://github.com/karak-network/karak-restaking/pull/434 | M-02| This mitigation accounts for the decrease in balance of the users shares before burning |
-| https://github.com/karak-network/karak-restaking/pull/385 | M-03 | This mitigation computes the slashing amount in finalize slashing |
-| https://github.com/karak-network/karak-restaking/pull/383 | M-04 | This mitigation exposes a getter to determine if a vault's queued for slashing |
-| https://github.com/karak-network/karak-restaking/pull/365 | M-05 | This mitigation skips the slashing incase of `0` slashing amount |
+| https://github.com/karak-network/karak-arena-mitigations/commit/fdef9d25e2b7c0a528d5a6dfcce64a3a518165af#diff-940446432243a929cd0f5ea691c4e90d60ee655723e2d5d8fcafc7b7504cfe98R437 | H-01 | This mitigation only burns the ETH that has already been credited to the user consequently avoiding this scenario |
+| https://github.com/karak-network/karak-arena-mitigations/commit/fdef9d25e2b7c0a528d5a6dfcce64a3a518165af#diff-940446432243a929cd0f5ea691c4e90d60ee655723e2d5d8fcafc7b7504cfe98R429 | H-02 | This mitigation removes the SlashStore altogether and the NativeVault itself burns the slashed ETH |
+| https://github.com/karak-network/karak-arena-mitigations/commit/fdef9d25e2b7c0a528d5a6dfcce64a3a518165af#diff-940446432243a929cd0f5ea691c4e90d60ee655723e2d5d8fcafc7b7504cfe98R216 | H-03 | This mitigation introduces a check for the rounding error |
+| https://github.com/karak-network/karak-arena-mitigations/commit/69644a7b1c3607aea5f876d9ee6be24035c1d9d2 | H-04 | This mitigation validates the operator, vaults status in the finalizing slashing |
+| https://github.com/karak-network/karak-arena-mitigations/commit/af49375f2f7682b6372477d68d367f2dee4256ca | M-02| This mitigation accounts for the decrease in balance of the users shares before burning |
+| https://github.com/karak-network/karak-arena-mitigations/commit/71b4d9609b441072d2e0da62d67d6ad6cec0e550 | M-03 | This mitigation computes the slashing amount in finalize slashing |
+| https://github.com/karak-network/karak-arena-mitigations/commit/a153880bfe7077b9f15c999297f8dbb582df1e09 | M-04 | This mitigation exposes a getter to determine if a vault's queued for slashing |
+| https://github.com/karak-network/karak-arena-mitigations/commit/69644a7b1c3607aea5f876d9ee6be24035c1d9d2| M-05 | This mitigation skips the slashing incase of `0` slashing amount |
 
 
 
@@ -62,8 +62,8 @@ These are additional changes that will be in scope.
 
 | URL | Mitigation of | Purpose | 
 | ----------- | ------------- | ----------- |
-| https://github.com/karak-network/karak-contracts-public/commit/9f4dafffa9bccd735c7ec6999f7fbe97514e2235#diff-62a4c2a33a1406e2fd41853e17947e8b72064dbec391332220e5ebb93216bea0R446 | ADD-01 | Critical fix |
-| https://github.com/karak-network/karak-contracts-public/commit/9f4dafffa9bccd735c7ec6999f7fbe97514e2235#diff-41a928b54782acaae681d5a031db58051d7db1e4139faa37efa7a23a19dd8286R177-R178 | ADD-02 | Critical fix |
+| https://github.com/karak-network/karak-arena-mitigations/commit/4b6a05e9b82e7e56901f5bb70f4095c48656083e#diff-940446432243a929cd0f5ea691c4e90d60ee655723e2d5d8fcafc7b7504cfe98R446 | ADD-01 | Critical fix |
+| https://github.com/karak-network/karak-arena-mitigations/commit/4b6a05e9b82e7e56901f5bb70f4095c48656083e#diff-43f1883e39f28737075e02ba241ac1800e383631a5c788709a0e108da40e9159R177-R178 | ADD-02 | Critical fix |
 
 ## Out of Scope
 - [M-01: Changing the slashingHandler for NativeVaults will DoS slashing](https://github.com/code-423n4/2024-07-karak-findings/issues/49)
