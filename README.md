@@ -24,8 +24,8 @@ Mitigations of all High and Medium issues (+ Additional Issues to be mitigated) 
 - [M-05: Slashing’s will Always Fail In Some Cases](https://github.com/code-423n4/2024-07-karak-findings/issues/7)
 
 Additional issues to be mitigated:
-- [Unclassified-1]: packages/contracts/src/NativeVault.sol L446 `+ node.withdrawableCreditedNodeETH -= slashedWithdrawable;`
-- [Unclassified-2]: packages/contracts/src/entities/NativeVaultLib.sol L177-L178
+- [ADD-01]: packages/contracts/src/NativeVault.sol L446 `+ node.withdrawableCreditedNodeETH -= slashedWithdrawable;`
+- [ADD-02]: packages/contracts/src/entities/NativeVaultLib.sol L177-L178
 ```
   validatorDetails.lastBalanceUpdateTimestamp =
             node.currentSnapshotTimestamp == 0 ? node.lastSnapshotTimestamp : node.currentSnapshotTimestamp;
